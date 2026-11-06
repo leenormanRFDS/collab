@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f7f5" />
+  <meta name="description" content="COLLAB — a creative briefing workspace for RFDS SA/NT fundraising ideas." />
+  <title>COLLAB — Brief Lee. Build better.</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="intro-stage" class="intro-stage" role="region" aria-label="COLLAB opening sequence">
+    <div class="intro-grain" aria-hidden="true"></div>
+    <div class="intro-meta"><span>RFDS SA/NT<br>CREATIVE BRIEFING STUDIO</span><span>01 / IDEAS IN MOTION</span><button type="button" data-dismiss-intro class="intro-skip">SKIP INTRO ↗</button></div>
+    <div class="intro-message"><span class="intro-tag">THINK IT. SHOW IT. SEND IT.</span><p>Because “can you make it pop?”<br>isn't quite a creative brief.</p></div>
+    <div class="intro-graphic" aria-hidden="true"><span class="slab slab-one"></span><span class="slab slab-two"></span><span class="slab slab-three"></span></div>
+    <div class="intro-bottom"><div class="intro-wordmark" aria-label="COLLAB"><span class="intro-col">COL</span><span class="intro-lab">LAB</span><sup>™</sup></div><div class="intro-progress"><span>BOOTING CREATIVE THINKING</span><span id="intro-number">COLLAB / 2026</span><div class="intro-track"><i></i></div></div></div>
+  </div>
+  <section id="name-gate" class="name-gate" role="dialog" aria-labelledby="name-title" aria-modal="true" hidden>
+    <div class="gate-noise" aria-hidden="true">C<br>O<br>L<br>L<br>A<br>B</div>
+    <div class="gate-card"><div class="gate-kicker">01 / BEFORE THE BRIEF</div><div class="gate-brand"><span>COL</span><b>LAB</b><sup>™</sup></div><h1 id="name-title">And who might<br>you be?</h1><p>Lee would love to know who's about to make his inbox more interesting. First names work. Mysterious aliases are less helpful.</p><form id="name-form"><label for="name-field">YOUR NAME</label><div class="name-input-row"><input id="name-field" type="text" name="name" placeholder="Your name" autocomplete="given-name" maxlength="50" required/><button type="submit">LET'S GO ↗</button></div></form><small>Just a friendly introduction — not a secure staff login. No passwords, no drama.</small></div>
+  </section>
+  <canvas id="ambient-canvas" class="ambient-canvas" aria-hidden="true"></canvas>
+  <div id="app"></div>
+  <div id="toast-region" role="status" aria-live="polite"></div>
+  <script src="./app.js" defer></script>
+</body>
+</html>
